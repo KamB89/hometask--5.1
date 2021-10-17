@@ -1,0 +1,52 @@
+.main-container{
+    display: flex;
+}
+
+.text{
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.navigation{
+    background-color: grey;
+    position: fixed;
+    height: 100%;
+    display: block;
+    width: 45px;
+}
+
+img{
+    height: 30px;
+    width: 30px;
+    align-content: center;
+}
+
+.title
+{
+    display: flex;
+}
+
+.title p
+{
+    padding-bottom: 0px;
+    height: 30px;
+    margin-right: 30px;
+    visibility: hidden;
+}
+
+
+.navigation:hover{
+    width: 120px;
+    transition: 1s;
+}
+
+.navigation:hover .title p{
+    visibility: visible;
+}
+
+img:hover{
+    margin-left: 3px;
+}
+
+
+
